@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 public class LayoutUtils {
-    public static GridLayoutManager createGridLayoutManager(Context context, int orientation, int spanCount) {
+     public static GridLayoutManager createGridLayoutManager(Context context, int orientation, int spanCount) {
         GridLayoutManager gridLayoutManager = new GridLayoutManager(
                 context,
                 spanCount,

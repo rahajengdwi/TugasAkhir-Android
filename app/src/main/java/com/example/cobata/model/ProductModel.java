@@ -17,6 +17,15 @@ public class ProductModel {
     String expense_policy;
     String optional_product_ids;
     String supplier_taxes_id;
+    String image;
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 
     public int getId() {
         return id;

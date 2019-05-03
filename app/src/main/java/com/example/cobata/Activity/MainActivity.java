@@ -1,9 +1,10 @@
-package com.example.cobata;
+package com.example.cobata.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.android.volley.Request;
+import com.example.cobata.R;
 import com.example.cobata.interfaces.BaseRequestListener;
 import com.example.cobata.interfaces.Const;
 import com.example.cobata.utils.RequestUtils;
